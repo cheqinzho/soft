@@ -1,0 +1,122 @@
+﻿Start collecting information about the crash...
+[taking_screenshot]
+Desktop screenshot generation disabled; skipping.
+Creating crash dump file...
+[creating_dump]
+Dumping info for module E:\搜索软件\Listary.Pro\Listary\Listary.exe
+Dumping info for module C:\Windows\System32\ntdll.dll
+Dumping info for module C:\Windows\System32\kernel32.dll
+Dumping info for module C:\Windows\System32\KERNELBASE.dll
+Dumping info for module C:\Windows\System32\gdi32.dll
+Dumping info for module C:\Windows\System32\gdi32full.dll
+Dumping info for module C:\Windows\System32\msvcp_win.dll
+Dumping info for module C:\Windows\System32\ucrtbase.dll
+Dumping info for module C:\Windows\System32\user32.dll
+Dumping info for module C:\Windows\System32\win32u.dll
+Dumping info for module C:\Windows\System32\advapi32.dll
+Dumping info for module C:\Windows\System32\msvcrt.dll
+Dumping info for module C:\Windows\System32\sechost.dll
+Dumping info for module C:\Windows\System32\rpcrt4.dll
+Dumping info for module C:\Windows\System32\sspicli.dll
+Dumping info for module C:\Windows\System32\CRYPTBASE.dll
+Dumping info for module C:\Windows\System32\bcryptPrimitives.dll
+Dumping info for module C:\Windows\System32\ole32.dll
+Dumping info for module C:\Windows\System32\combase.dll
+Dumping info for module C:\Windows\System32\oleaut32.dll
+Dumping info for module C:\Windows\System32\shlwapi.dll
+Dumping info for module C:\Windows\System32\comdlg32.dll
+Dumping info for module C:\Windows\System32\SHCore.dll
+Dumping info for module C:\Windows\System32\shell32.dll
+Dumping info for module C:\Windows\System32\cfgmgr32.dll
+Dumping info for module C:\Windows\System32\windows.storage.dll
+Dumping info for module C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.15063.483_none_6dad63fefc436da8\comctl32.dll
+Dumping info for module C:\Windows\System32\kernel.appcore.dll
+Dumping info for module C:\Windows\System32\powrprof.dll
+Dumping info for module C:\Windows\System32\profapi.dll
+Dumping info for module C:\Windows\System32\psapi.dll
+Dumping info for module C:\Windows\System32\imm32.dll
+Dumping info for module C:\Windows\System32\wininet.dll
+Dumping info for module E:\搜索软件\Listary.Pro\Listary\msvcp140.dll
+Dumping info for module C:\Windows\System32\version.dll
+Dumping info for module C:\Windows\System32\msimg32.dll
+Dumping info for module C:\Windows\System32\winmm.dll
+Dumping info for module C:\Windows\System32\oleacc.dll
+Dumping info for module E:\搜索软件\Listary.Pro\Listary\CrashRpt1403.dll
+Dumping info for module C:\Windows\System32\usp10.dll
+Dumping info for module C:\Windows\System32\WINMMBASE.dll
+Dumping info for module E:\搜索软件\Listary.Pro\Listary\CONCRT140.dll
+Dumping info for module E:\搜索软件\Listary.Pro\Listary\VCRUNTIME140.dll
+Dumping info for module C:\Windows\System32\apphelp.dll
+Dumping info for module C:\Windows\System32\uxtheme.dll
+Dumping info for module C:\Windows\System32\dwmapi.dll
+Dumping info for module C:\Windows\System32\clbcatq.dll
+Dumping info for module C:\Windows\System32\sxs.dll
+Dumping info for module C:\Windows\System32\propsys.dll
+Dumping info for module C:\Windows\System32\edputil.dll
+Dumping info for module C:\Windows\System32\Windows.StateRepository.dll
+Dumping info for module C:\Windows\System32\StateRepository.Core.dll
+Dumping info for module C:\Windows\System32\urlmon.dll
+Dumping info for module C:\Windows\System32\iertutil.dll
+Dumping info for module C:\Windows\System32\msIso.dll
+Dumping info for module C:\Windows\System32\mpr.dll
+Dumping info for module C:\Windows\System32\pcacli.dll
+Dumping info for module C:\Windows\System32\sfc_os.dll
+Dumping info for module C:\Windows\System32\setupapi.dll
+Dumping info for module C:\Windows\System32\devrtl.dll
+Dumping info for module C:\Windows\System32\atlthunk.dll
+Dumping info for module C:\Windows\System32\msctf.dll
+Dumping info for module C:\Windows\System32\WindowsCodecs.dll
+Dumping info for module C:\Windows\System32\ntmarta.dll
+Dumping info for module C:\Windows\System32\thumbcache.dll
+Dumping info for module C:\Windows\System32\policymanager.dll
+Dumping info for module C:\Windows\System32\msvcp110_win.dll
+Dumping info for module E:\搜索软件\Listary.Pro\Listary\ListaryHook.dll
+Dumping info for module C:\Windows\System32\mscms.dll
+Dumping info for module C:\Windows\System32\userenv.dll
+Dumping info for module C:\Windows\System32\TextInputFramework.dll
+Dumping info for module C:\Windows\System32\CoreUIComponents.dll
+Dumping info for module C:\Windows\System32\CoreMessaging.dll
+Dumping info for module C:\Windows\System32\usermgrcli.dll
+Dumping info for module C:\Windows\System32\WinTypes.dll
+Dumping info for module C:\Windows\System32\SogouTSF.ime
+Dumping info for module C:\Windows\System32\SogouPY.ime
+Dumping info for module C:\Windows\System32\ws2_32.dll
+Dumping info for module C:\Program Files (x86)\SogouInput\8.7.0.1682\Resource.dll
+Dumping info for module C:\Program Files (x86)\SogouInput\Components\PicFace\1.1.0.1781\PicFace.dll
+Dumping info for module C:\Windows\System32\dataexchange.dll
+Dumping info for module C:\Windows\System32\d3d11.dll
+Dumping info for module C:\Windows\System32\dcomp.dll
+Dumping info for module C:\Windows\System32\dxgi.dll
+Dumping info for module C:\Windows\System32\twinapi.appcore.dll
+Dumping info for module C:\Windows\System32\bcrypt.dll
+Dumping info for module C:\Windows\System32\taskschd.dll
+Dumping info for module C:\Windows\System32\msftedit.dll
+Dumping info for module C:\Windows\System32\Windows.Globalization.dll
+Dumping info for module C:\Windows\System32\Bcp47Langs.dll
+Dumping info for module C:\Windows\System32\globinputhost.dll
+Dumping info for module C:\Program Files (x86)\Common Files\microsoft shared\ink\tiptsf.dll
+Dumping info for module C:\Windows\System32\dbghelp.dll
+Dumping info for module C:\Windows\System32\dbgcore.dll
+Dumping info for thread 0x1BC0
+Dumping info for thread 0x1C94
+Dumping info for thread 0xB98
+Dumping info for thread 0x14F0
+Dumping info for thread 0x42E4
+Dumping info for thread 0x4190
+Dumping info for thread 0x4548
+Dumping info for thread 0x32B4
+Dumping info for thread 0x364C
+Dumping info for thread 0x3864
+Dumping info for thread 0x43D0
+Dumping info for thread 0x3464
+Dumping info for thread 0x2FA8
+Dumping info for thread 0x2058
+Dumping info for thread 0x37C
+Dumping info for thread 0x395C
+Dumping info for thread 0x2450
+Finished creating dump.
+[copying_files]
+Finished copying files.
+[encoding_video]
+Desktop video recording disabled; skipping.
+[confirm_send_report]

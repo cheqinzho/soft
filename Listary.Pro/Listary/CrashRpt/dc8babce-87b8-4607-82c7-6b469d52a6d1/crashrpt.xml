@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<CrashRpt version="1403">
+    <CrashGUID>dc8babce-87b8-4607-82c7-6b469d52a6d1</CrashGUID>
+    <AppName>Listary</AppName>
+    <AppVersion>5.0.2581.0</AppVersion>
+    <ImageName>E:\搜索软件\Listary.Pro\Listary\Listary.exe</ImageName>
+    <OperatingSystem>Windows 10 Pro Build 15063</OperatingSystem>
+    <OSIs64Bit>1</OSIs64Bit>
+    <GeoLocation>zh-cn</GeoLocation>
+    <SystemTimeUTC>2017-11-09T10:17:09Z</SystemTimeUTC>
+    <ExceptionAddress>0x9b5ab7</ExceptionAddress>
+    <ExceptionModule>E:\搜索软件\Listary.Pro\Listary\Listary.exe</ExceptionModule>
+    <ExceptionModuleBase>0x8f0000</ExceptionModuleBase>
+    <ExceptionModuleVersion>5.0.2581.0</ExceptionModuleVersion>
+    <ExceptionType>0</ExceptionType>
+    <ExceptionCode>0</ExceptionCode>
+    <GUIResourceCount>339</GUIResourceCount>
+    <OpenHandleCount>676</OpenHandleCount>
+    <MemoryUsageKbytes>44732</MemoryUsageKbytes>
+    <CustomProps />
+    <FileList>
+        <FileItem name="Preferences.json" description="" />
+        <FileItem name="crashdump.dmp" description="Crash Minidump" />
+        <FileItem name="crashrpt.xml" description="Crash Description XML" />
+        <FileItem name="portable.dat" description="" />
+    </FileList>
+</CrashRpt>

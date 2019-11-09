@@ -1,0 +1,1944 @@
+{
+   "actions": {
+      "base": [ "{44eca225-98f6-489c-b97a-03163e83ce7e}", "{b7e56ba3-2042-4ff7-a499-62d861e2aa69}", "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}", "{81927428-1534-44c4-88aa-f119f682339d}", "{284ecbe8-1ef2-49c9-bd93-f7025519402b}", "{35c0504f-b1a8-4c82-8e32-aa1e68520972}", "{4025f3ed-47e1-4212-9276-de3fbb0786e8}", "{6d2b6aa4-67e5-4dd6-b7ea-c4b30ae8c9a5}", "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}", "{170e8be1-80fa-4afb-a6d7-7bcb1a1eba19}", "{112b153c-23ec-463a-bcae-9eeba93802d8}", "{7971bb91-830f-474b-a976-8bfc9fc001d1}", "{06457068-a652-4c0d-9c3c-a4056dde1f67}", "{e5d9da93-b1dd-4401-8ba1-25f10fca9f93}", "{f56585dd-3f13-4305-8f00-e5599e3f20fe}" ],
+      "items": [ {
+         "command_string": "_action_open",
+         "enabled": true,
+         "guid": "{112b153c-23ec-463a-bcae-9eeba93802d8}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_open_folder",
+         "enabled": true,
+         "guid": "{44eca225-98f6-489c-b97a-03163e83ce7e}",
+         "hotkey": 3330,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_open_with",
+         "enabled": true,
+         "guid": "{6d2b6aa4-67e5-4dd6-b7ea-c4b30ae8c9a5}",
+         "hotkey": 20225,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_set_keyword",
+         "enabled": true,
+         "guid": "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy",
+         "enabled": true,
+         "guid": "{81927428-1534-44c4-88aa-f119f682339d}",
+         "hotkey": 17154,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_cut",
+         "enabled": true,
+         "guid": "{284ecbe8-1ef2-49c9-bd93-f7025519402b}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_send_to",
+         "enabled": true,
+         "guid": "{b7e56ba3-2042-4ff7-a499-62d861e2aa69}",
+         "hotkey": 21249,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy_path",
+         "enabled": true,
+         "guid": "{35c0504f-b1a8-4c82-8e32-aa1e68520972}",
+         "hotkey": 17158,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy_folder_path",
+         "enabled": true,
+         "guid": "{4025f3ed-47e1-4212-9276-de3fbb0786e8}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy_to_current_folder",
+         "enabled": true,
+         "guid": "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_move_to_current_folder",
+         "enabled": true,
+         "guid": "{170e8be1-80fa-4afb-a6d7-7bcb1a1eba19}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "enabled": true,
+         "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
+         "hotkey": 0,
+         "keyword": "",
+         "param": "\"{action_path}\"",
+         "path": "E:\\03-\u5B9E\u7528\u8F6F\u4EF6\\Notepad++\\notepad++.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "Edit with Notepad++",
+         "type": "custom"
+      }, {
+         "enabled": true,
+         "guid": "{06457068-a652-4c0d-9c3c-a4056dde1f67}",
+         "hotkey": 3074,
+         "keyword": "",
+         "param": "\"{action_path}\"",
+         "path": "gvim.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "Edit with Vim",
+         "type": "custom"
+      }, {
+         "enabled": true,
+         "guid": "{e5d9da93-b1dd-4401-8ba1-25f10fca9f93}",
+         "hotkey": 0,
+         "keyword": "",
+         "param": "\"{action_path}\"",
+         "path": "atom.cmd",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "Edit with Atom",
+         "type": "custom"
+      }, {
+         "enabled": true,
+         "guid": "{f56585dd-3f13-4305-8f00-e5599e3f20fe}",
+         "hotkey": 0,
+         "keyword": "Git",
+         "param": "/K \"cd /d \"{action_path}\" & \"C:\\Program Files (x86)\\Git\\bin\\sh.exe\" --login\"",
+         "path": "cmd.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "Git Bash",
+         "type": "custom"
+      }, {
+         "enabled": true,
+         "guid": "",
+         "hotkey": 26882,
+         "keyword": "\u8BB0\u4E8B\u672C",
+         "param": "\"{action_path}\"",
+         "path": "notepad.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "\u7528\u8BB0\u4E8B\u672C\u6253\u5F00",
+         "type": "custom"
+      }, {
+         "enabled": true,
+         "guid": "",
+         "hotkey": 0,
+         "keyword": "\u641C\u7D22",
+         "param": "\"{action_path}\"",
+         "path": "http://www.baidu.com/s?wd=",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "\u641C\u7D22",
+         "type": "custom"
+      }, {
+         "enabled": true,
+         "guid": "",
+         "hotkey": 0,
+         "keyword": "\u5173\u95ED",
+         "param": "/f /im\"{action_path}\"",
+         "path": "taskkill",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "\u5173\u95ED",
+         "type": "custom"
+      } ]
+   },
+   "app_settings": {
+      "by_path": [ {
+         "config": {
+            "enable_hot_key_when_toolbar_hidden": true
+         },
+         "path": "E:\\05-\u641C\u7D22\u8F6F\u4EF6\\SogouExplorer\\SogouExplorer.exe"
+      }, {
+         "config": {
+            "enable_hot_key_when_toolbar_hidden": true
+         },
+         "path": "E:\\03-\u5B9E\u7528\u8F6F\u4EF6\\BaiduNetdisk\\baidunetdisk.exe"
+      }, {
+         "config": {
+            "enable_hot_key_when_toolbar_hidden": true,
+            "toolbar_position": 5
+         },
+         "path": "X:\\Windows\\System32\\notepad.exe"
+      } ],
+      "by_type": {
+         "7zip": {
+            "enable_hot_key_when_toolbar_hidden": true
+         },
+         "desktop": {
+            "enable_hot_key_when_toolbar_hidden": true
+         },
+         "directory_opus": {
+            "enable_hot_key_when_toolbar_hidden": true
+         },
+         "total_cmd": {
+            "enable_hot_key_when_toolbar_hidden": true
+         },
+         "winrar_extract_to": {
+            "enable_hot_key_when_toolbar_hidden": true
+         }
+      }
+   },
+   "appearance": {
+      "theme": {
+         "file": "Listary Belize Hole.listarytheme.json"
+      }
+   },
+   "check_update": {
+      "last_check_local_version": "5.00.2581",
+      "last_check_time": "13217698206747467",
+      "version_setting": {
+         "remind_later": "0",
+         "skip": true,
+         "version": "5.00.2843"
+      }
+   },
+   "general": {
+      "default_file_manager": {
+
+      },
+      "fuzzy_matching": true,
+      "language_file": "zh-CN.ini"
+   },
+   "history": {
+
+   },
+   "hotkey": {
+      "launch_apps": 22534,
+      "main": 20739
+   },
+   "keywords": {
+      "builtin_commands": [ {
+         "guid": "{e95b87aa-9cf6-48aa-82c7-603e9af0f80b}",
+         "keyword": "\u521B\u5EFA\u6587\u4EF6\u5939"
+      }, {
+         "guid": "{f60f63ab-1d2e-470e-ba34-482cb50dadc5}",
+         "keyword": "\u9009\u9879"
+      }, {
+         "command": "_ExportToExcel",
+         "enabled": true,
+         "keyword": "keyword"
+      }, {
+         "command": "_ToggleFileExt",
+         "enabled": true,
+         "keyword": "\u663E\u793A\u6269\u5C55\u540D"
+      }, {
+         "command": "_DisableListary",
+         "enabled": true,
+         "keyword": "\u7981\u7528"
+      } ],
+      "custom_commands": [ {
+         "display_title": "\u9501\u5B9A\u7CFB\u7EDF",
+         "guid": "{7313132d-cc4b-4f04-94a1-030dc2db5413}",
+         "keyword": "\u9501\u673A"
+      }, {
+         "display_title": "\u5173\u673A",
+         "guid": "{bddf0f57-c6f4-4504-af56-06cff3dcffae}",
+         "keyword": "\u5173\u673A",
+         "param": "/s /t 00"
+      }, {
+         "display_title": "\u91CD\u542F",
+         "guid": "{945277a1-858f-4bc8-879a-db3aa926c6e1}",
+         "keyword": "\u91CD\u542F",
+         "param": "/r /t 00"
+      }, {
+         "display_title": "\u7A0B\u5E8F\u548C\u529F\u80FD",
+         "guid": "{1bba6227-4dcd-40d9-bfc1-064c280e3b4a}",
+         "keyword": "\u5378\u8F7D"
+      }, {
+         "display_title": "\u6253\u5F00\u7F51\u7EDC\u8FDE\u63A5",
+         "guid": "{8b65b236-49ac-422a-918c-5e66accd0a2c}",
+         "keyword": "\u7F51\u7EDC\u8FDE\u63A5"
+      }, {
+         "description": "",
+         "display_title": "Title",
+         "enabled": true,
+         "keyword": "keyword",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u6253\u5F00\u5FAE\u4FE1",
+         "enabled": true,
+         "keyword": "\u5FAE\u4FE1",
+         "only_show_in_launcher": false,
+         "param": "open",
+         "path": "E:\\07-\u5A31\u4E50\u8F6F\u4EF6\\WeChat\\WeChat.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u6253\u5F00\u8BB0\u4E8B\u672C",
+         "enabled": true,
+         "keyword": "\u8BB0\u4E8B\u672C",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "notepad.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u6253\u5F00\u6CE8\u518C\u8868",
+         "enabled": true,
+         "keyword": "\u6CE8\u518C\u8868",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "regedt32.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u6253\u5F00\u8BBE\u5907\u7BA1\u7406\u5668",
+         "enabled": true,
+         "keyword": "\u8BBE\u5907\u7BA1\u7406\u5668",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "devmgmt.msc",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u6CE8\u9500\u8BA1\u7B97\u673A",
+         "enabled": true,
+         "keyword": "\u6CE8\u9500",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "logoff",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u97F3\u91CF\u63A7\u5236",
+         "enabled": true,
+         "keyword": "\u97F3\u91CF\u63A7\u5236",
+         "only_show_in_launcher": false,
+         "param": "/r",
+         "path": "C:\\WINDOWS\\system32\\sndvol32.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u526A\u8D34\u677F",
+         "enabled": false,
+         "keyword": "\u526A\u8D34\u677F",
+         "only_show_in_launcher": false,
+         "param": "{%c}",
+         "path": "https://search.bilibili.com/all?keyword=",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u53EA\u663E\u793A",
+         "enabled": false,
+         "keyword": "\u53EA\u663E\u793A",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u4F11\u7720",
+         "enabled": true,
+         "keyword": "\u4F11\u7720",
+         "only_show_in_launcher": false,
+         "param": "/h",
+         "path": "shutdown",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "hexin.exe",
+         "enabled": true,
+         "keyword": "\u540C\u82B1\u987A",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\03-\u5B9E\u7528\u8F6F\u4EF6\\\u540C\u82B1\u987A\\hexin.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "DU\u76D8\u89E3\u6790\u4E0B\u8F7D\u5668.exe",
+         "enabled": true,
+         "keyword": "\u5EA6\u76D8",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\05-\u641C\u7D22\u8F6F\u4EF6\\DU\u76D8\u89E3\u6790\u4E0B\u8F7D\u5668v1.1\\DU\u76D8\u89E3\u6790\u4E0B\u8F7D\u5668.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "BitComet",
+         "enabled": true,
+         "keyword": "\u6BD4\u7279\u5F57\u661F",
+         "only_show_in_launcher": true,
+         "param": "",
+         "path": "X:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\BitComet (64-bit)\\BitComet.lnk",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u79CD\u5B50\u641C\u7D22",
+         "enabled": true,
+         "keyword": "\u79CD\u5B50\u641C\u7D22",
+         "only_show_in_launcher": true,
+         "param": "",
+         "path": "X:\\Users\\Public\\Desktop\\\u79CD\u5B50\u641C\u7D22.lnk",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "FL Studio 12",
+         "enabled": true,
+         "keyword": "\u6C34\u679C",
+         "only_show_in_launcher": true,
+         "param": "",
+         "path": "X:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Image-Line\\FL Studio 12.lnk",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "EdrawMax.lnk",
+         "enabled": true,
+         "keyword": "\u4EBF\u56FE\u56FE\u793A",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "X:\\Users\\sunny\\Desktop\\EdrawMax.lnk",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "\u6A21\u62DF\u8003\u8BD5.exe",
+         "enabled": true,
+         "keyword": "\u6A21\u62DF\u8003\u8BD5",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\02-\u529E\u516C\u8F6F\u4EF6\\\u672A\u6765\u6559\u80B2\u8003\u8BD5\u7CFB\u7EDFV3.0\\\u6A21\u62DF\u8003\u8BD5.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "Adobe Audition CS6.exe",
+         "enabled": true,
+         "keyword": "au",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\08-ADOBE\\Adobe CS6\\au cs6\\Adobe Audition CS6.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "Photoshop.exe",
+         "enabled": true,
+         "keyword": "PS",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\08-ADOBE\\Adobe CS6\\ps cs6\\Photoshop.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "SuperTextCopyer.exe",
+         "enabled": true,
+         "keyword": "supertextcopyer",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\01-\u7CFB\u7EDF\u8F6F\u4EF6\\\u6587\u672C\u590D\u5236\\supertextcopyer\\SuperTextCopyer\\SuperTextCopyer.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "SuperTextCopyer.exe",
+         "enabled": true,
+         "keyword": "\u6587\u672C\u590D\u5236",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\01-\u7CFB\u7EDF\u8F6F\u4EF6\\\u6587\u672C\u590D\u5236\\supertextcopyer\\SuperTextCopyer\\SuperTextCopyer.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "WindowsTextCopyer.exe",
+         "enabled": true,
+         "keyword": "\u6587\u672C\u590D\u5236",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\01-\u7CFB\u7EDF\u8F6F\u4EF6\\\u6587\u672C\u590D\u5236\\WindowsTextCopyer\\WindowsTextCopyer.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "stats",
+         "enabled": true,
+         "keyword": "SPSS",
+         "only_show_in_launcher": false,
+         "param": "",
+         "path": "E:\\02-\u529E\u516C\u8F6F\u4EF6\\spss\\stats.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      } ],
+      "folder": [ {
+         "enabled": true,
+         "keyword": "\u8BB0\u4E8B\u672C",
+         "name": "\u6253\u5F00\u8BB0\u4E8B\u672C",
+         "path": "notepad.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u8BA1\u7B97\u673A\u7BA1\u7406",
+         "name": "\u6253\u5F00\u8BA1\u7B97\u673A\u7BA1\u7406",
+         "path": "compmgmt.msc"
+      }, {
+         "enabled": true,
+         "keyword": "\u63A7\u5236\u9762\u677F",
+         "name": "\u6253\u5F00\u63A7\u5236\u9762\u677F",
+         "path": "control.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u78C1\u76D8\u7BA1\u7406",
+         "name": "\u6253\u5F00\u78C1\u76D8\u7BA1\u7406",
+         "path": "diskmgmt.msc"
+      }, {
+         "enabled": true,
+         "keyword": "\u753B\u56FE",
+         "name": "\u6253\u5F00\u753B\u56FE\u5DE5\u5177",
+         "path": "mspaint.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u622A\u56FE",
+         "name": "\u6253\u5F00\u622A\u56FE\u5DE5\u5177",
+         "path": "SnippingTool.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u653E\u5927\u955C",
+         "name": "\u6253\u5F00\u653E\u5927\u955C\u5DE5\u5177",
+         "path": "magnify.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u8BA1\u7B97\u5668",
+         "name": "\u6253\u5F00\u8BA1\u7B97\u5668",
+         "path": "calc.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u78C1\u76D8\u6E05\u7406",
+         "name": "\u6253\u5F00\u78C1\u76D8\u6E05\u7406",
+         "path": "cleanmgr.exe"
+      }, {
+         "enabled": false,
+         "keyword": "\u66F4\u65B0\u7A0B\u5E8F",
+         "name": "\u6253\u5F00\u66F4\u65B0\u7A0B\u5E8F",
+         "path": "wupdmgr"
+      }, {
+         "enabled": true,
+         "keyword": "\u5199\u5B57\u677F",
+         "name": "\u6253\u5F00\u5199\u5B57\u677F",
+         "path": "write.exe"
+      }, {
+         "enabled": false,
+         "keyword": "\u663E\u793A\u5185\u5B58",
+         "name": "\u663E\u793A\u5185\u5B58",
+         "path": "mem.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u670D\u52A1",
+         "name": "\u6253\u5F00\u670D\u52A1",
+         "path": "services.msc"
+      }, {
+         "enabled": true,
+         "keyword": "\u672C\u5730\u8D26\u6237\u7BA1\u7406",
+         "name": "\u6253\u5F00\u672C\u5730\u8D26\u6237\u7BA1\u7406",
+         "path": "lusrmgr.msc"
+      }, {
+         "enabled": false,
+         "keyword": "\u7CFB\u7EDF\u533B\u751F",
+         "name": "\u6253\u5F00\u7CFB\u7EDF\u533B\u751F",
+         "path": "drwtsn32.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u5378\u8F7D",
+         "name": "\u5378\u8F7D",
+         "path": "E:\\01-\u7CFB\u7EDF\u8F6F\u4EF6\\GeekUninstaller.exe"
+      }, {
+         "enabled": true,
+         "keyword": "IP\u5730\u5740",
+         "name": "\u6253\u5F00IP\u5730\u5740",
+         "path": "nslookup.exe"
+      }, {
+         "enabled": true,
+         "keyword": "\u8FD0\u884C",
+         "name": "\u8FD0\u884C",
+         "path": "{%p}"
+      }, {
+         "enabled": true,
+         "keyword": "C\u76D8",
+         "name": "C\u76D8",
+         "path": "C:\\"
+      }, {
+         "enabled": true,
+         "keyword": "E\u76D8",
+         "name": "E\u76D8",
+         "path": "E:\\"
+      }, {
+         "enabled": true,
+         "keyword": "F\u76D8",
+         "name": "F\u76D8",
+         "path": "F:\\"
+      }, {
+         "enabled": true,
+         "keyword": "G\u76D8",
+         "name": "G\u76D8",
+         "path": "G:\\"
+      }, {
+         "enabled": true,
+         "keyword": "H\u76D8",
+         "name": "H\u76D8",
+         "path": "H:\\"
+      }, {
+         "enabled": true,
+         "keyword": "K\u76D8",
+         "name": "K\u76D8",
+         "path": "K:\\"
+      }, {
+         "enabled": true,
+         "keyword": "X\u76D8",
+         "name": "X\u76D8",
+         "path": "X:\\"
+      } ],
+      "web_search": [ {
+         "guid": "{ecb51462-cb27-4b89-ae53-333b4550f489}",
+         "keyword": "\u8C37\u6B4C",
+         "title": "\u8C37\u6B4C\u641C\u7D22"
+      }, {
+         "guid": "{dd896809-2af4-405b-834f-45816615e3e3}",
+         "keyword": "\u5FC5\u5E94",
+         "title": "\u5FC5\u5E94\u641C\u7D22"
+      }, {
+         "guid": "{b36cf1bb-5527-42d8-bf91-d034bcbf057b}",
+         "keyword": "\u767E\u5EA6",
+         "title": "\u767E\u5EA6\u641C\u7D22"
+      }, {
+         "guid": "{4ed886fb-1df0-4fd0-abc1-810fc180e647}",
+         "keyword": "\u63A8\u7279",
+         "title": "\u63A8\u7279"
+      }, {
+         "guid": "{610a486d-0028-4739-8eb6-50f5247c918f}",
+         "keyword": "\u4E9A\u9A6C\u900A",
+         "title": "\u4E9A\u9A6C\u900A\u641C\u7D22"
+      }, {
+         "guid": "{c78295a6-2cf8-4569-bf42-33f1e5c030d7}",
+         "keyword": "\u7EF4\u57FA\u767E\u79D1",
+         "title": "\u7EF4\u57FA\u767E\u79D1\u641C\u7D22"
+      }, {
+         "guid": "{1744aa0c-751a-495f-aac5-6910e7406229}",
+         "keyword": "\u8138\u4E66"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u4F18\u9177",
+         "title": "\u6253\u5F00\u4F18\u9177",
+         "url": "http://www.youku.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7231\u5947\u827A",
+         "title": "\u6253\u5F00\u7231\u5947\u827A",
+         "url": "http://www.iqiyi.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u817E\u8BAF",
+         "title": "\u6253\u5F00\u817E\u8BAF\u89C6\u9891",
+         "url": "https://v.qq.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "B\u7AD9",
+         "title": "\u6253\u5F00B\u7AD9",
+         "url": "https://www.bilibili.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u9752\u86D9\u7535\u5F71\u7F51",
+         "title": "\u6253\u5F00\u9752\u86D9\u7535\u5F71\u7F51",
+         "url": "http://www.vip8229.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7AE5\u8BDD\u6751",
+         "title": "\u6253\u5F00\u7AE5\u8BDD\u6751",
+         "url": "http://www.tonghuacun.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u4F18\u9177",
+         "title": "\u4F18\u9177\u641C\u7D22",
+         "url": "http://www.soku.com/search_video/q_{query}?spm=a2hww.20027244.#qheader_search~10"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "B\u7AD9",
+         "title": "\u641C\u7D22B\u7AD9",
+         "url": "https://search.bilibili.com/all?keyword={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6211\u8981\u81EA\u5B66\u7F51",
+         "title": "\u6253\u5F00\u6211\u8981\u81EA\u5B66\u7F51",
+         "url": "http://www.51zxw.net/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6211\u8981\u81EA\u5B66\u7F51",
+         "title": "\u6211\u8981\u81EA\u5B66\u7F51\u641C\u7D22",
+         "url": "http://so.51zxw.net/cse/search?={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7F51\u6613\u4E91\u8BFE\u5802",
+         "title": "\u6253\u5F00\u7F51\u6613\u4E91\u8BFE\u5802",
+         "url": "http://study.163.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7F51\u6613\u4E91\u8BFE\u5802",
+         "title": "\u7F51\u6613\u4E91\u8BFE\u5802\u641C\u7D22",
+         "url": "http://study.163.com/courses-search?keyword={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6155\u8BFE\u7F51",
+         "title": "\u6253\u5F00\u6155\u8BFE\u7F51",
+         "url": "https://www.imooc.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6155\u8BFE\u7F51",
+         "title": "\u6155\u8BFE\u7F51\u641C\u7D22",
+         "url": "https://www.imooc.com/search/?words={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u817E\u8BAF\u8BFE\u5802",
+         "title": "\u6253\u5F00\u817E\u8BAF\u8BFE\u5802",
+         "url": "https://ke.qq.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u817E\u8BAF\u8BFE\u5802",
+         "title": "\u817E\u8BAF\u8BFE\u5802\u641C\u7D22",
+         "url": "https://ke.qq.com/course/list/{query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5C0F\u4F17\u8F6F\u4EF6",
+         "title": "\u6253\u5F00\u5C0F\u4F17\u8F6F\u4EF6",
+         "url": "https://www.appinn.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5C0F\u4F17\u8F6F\u4EF6",
+         "title": "\u5C0F\u4F17\u8F6F\u4EF6\u641C\u7D22",
+         "url": "https://search.appinn.com/cse/search?q={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u83DC\u9E1F\u6559\u7A0B",
+         "title": "\u6253\u5F00\u83DC\u9E1F\u6559\u7A0B",
+         "url": "http://www.runoob.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u83DC\u9E1F\u6559\u7A0B",
+         "title": "\u83DC\u9E1F\u6559\u7A0B\u641C\u7D22",
+         "url": "http://www.runoob.com/?s={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u4E2D\u5173\u6751\u5728\u7EBF",
+         "title": "\u6253\u5F00\u4E2D\u5173\u6751\u5728\u7EBF",
+         "url": "http://www.zol.com.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u8292\u679CTV",
+         "title": "\u6253\u5F00\u8292\u679CTV",
+         "url": "https://www.mgtv.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u8292\u679CTV",
+         "title": "\u8292\u679CTV\u641C\u7D22",
+         "url": "https://so.mgtv.com/so/k-{query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u66B4\u98CE\u5F71\u97F3",
+         "title": "\u6253\u5F00\u66B4\u98CE\u5F71\u97F3",
+         "url": "http://www.baofeng.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u66B4\u98CE\u5F71\u97F3",
+         "title": "\u66B4\u98CE\u5F71\u97F3\u641C\u7D22",
+         "url": "http://www.baofeng.com/q_{query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6E56\u5317\u6587\u7406\u5B66\u9662",
+         "title": "\u6253\u5F00\u6E56\u5317\u6587\u7406\u5B66\u9662",
+         "url": "http://www.hbuas.edu.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5F3A\u667A\u79D1\u6280",
+         "title": "\u6253\u5F00\u5F3A\u667A\u79D1\u6280",
+         "url": "http://jwxt.hbuas.edu.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u53E3\u888B\u52A8\u753B",
+         "title": "\u6253\u5F00\u53E3\u888B\u52A8\u753B\u5B98\u7F51",
+         "url": "http://www.papocket.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "islide",
+         "title": "\u6253\u5F00islide\u5B98\u7F51",
+         "url": "https://www.islide.cc/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7F8E\u5316\u5927\u5E08",
+         "title": "\u6253\u5F00ppt\u7F8E\u5316\u5927\u5E08\u5B98\u7F51",
+         "url": "http://meihua.docer.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "WPS\u5B98\u7F51",
+         "title": "\u6253\u5F00WPS\u5B98\u7F51",
+         "url": "http://www.wps.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "xmind\u5B98\u7F51",
+         "title": "\u6253\u5F00xmind\u5B98\u7F51",
+         "url": "https://www.xmind.net.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "Adobe\u5B98\u7F51",
+         "title": "\u6253\u5F00Adobe\u5B98\u7F51",
+         "url": "https://www.adobe.com/cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u4EBF\u56FE\u56FE\u793A\u5B98\u7F51",
+         "title": "\u6253\u5F00\u4EBF\u56FE\u56FE\u793A\u5B98\u7F51",
+         "url": "http://www.edrawsoft.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "excelhome",
+         "title": "\u6253\u5F00excelhome",
+         "url": "http://www.excelhome.net/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "excel\u7CBE\u82F1\u8BBA\u575B",
+         "title": "\u6253\u5F00excel\u7CBE\u82F1\u8BBA\u575B",
+         "url": "http://www.excelpx.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "excel\u5B66\u4E60\u7F51",
+         "title": "\u6253\u5F00excel\u5B66\u4E60\u7F51",
+         "url": "http://www.excelcn.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "excel\u6280\u5DE7\u7F51",
+         "title": "\u6253\u5F00excel\u6280\u5DE7\u7F51",
+         "url": "http://www.exceltip.net/forum.php"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u65B9\u65B9\u683C\u5B50\u793E\u533A",
+         "title": "\u6253\u5F00\u65B9\u65B9\u683C\u5B50\u793E\u533A",
+         "url": "http://www.ffcell.com/School/Formula/f.aspx?f=If"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "PS\u8054\u76DF",
+         "title": "\u6253\u5F00PS\u8054\u76DF",
+         "url": "http://www.68ps.com/index.htm"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "PS\u7231\u597D\u8005",
+         "title": "\u6253\u5F00PS\u7231\u597D\u8005",
+         "url": "http://www.psahz.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "PS\u5B66\u4E60\u7F51",
+         "title": "\u6253\u5F00PS\u5B66\u4E60\u7F51",
+         "url": "http://www.ps-xxw.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "PS\u6559\u7A0B\u7F51",
+         "title": "\u6253\u5F00PS\u6559\u7A0B\u7F51",
+         "url": "http://www.06ps.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "PS\u5B66\u9662",
+         "title": "\u6253\u5F00PS\u5B66\u9662",
+         "url": "http://www.pc6.com/z/photoshop/#"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "PS\u8054\u76DF",
+         "title": "PS\u8054\u76DF\u641C\u7D22",
+         "url": "https://www.68ps.com/search/?kw={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5343\u56FE\u7F51",
+         "title": "\u6253\u5F00\u5343\u56FE\u7F51",
+         "url": "http://www.58pic.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u963F\u91CC\u5DF4\u5DF4\u77E2\u91CF\u56FE",
+         "title": "\u6253\u5F00\u963F\u91CC\u5DF4\u5DF4\u77E2\u91CF\u56FE",
+         "url": "http://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u963F\u91CC\u5DF4\u5DF4\u77E2\u91CF\u56FE",
+         "title": "\u963F\u91CC\u5DF4\u5DF4\u77E2\u91CF\u56FE\u641C\u7D22",
+         "url": "http://www.iconfont.cn/search/index?searchType=icon&q={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u56FE\u7247",
+         "title": "\u6253\u5F00\u767E\u5EA6\u56FE\u7247",
+         "url": "https://image.baidu.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u56FE\u7247",
+         "title": "\u767E\u5EA6\u56FE\u7247\u641C\u7D22",
+         "url": "https://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fr=&hs=0&xthttps=111111&sf=1&fmq=&pv=&ic=0&nc=1&z=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&word={query}&oq={query}&rsp=-1"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u641C\u72D7\u56FE\u7247",
+         "title": "\u6253\u5F00\u641C\u72D7\u56FE\u7247",
+         "url": "http://pic.sogou.com/?from=result"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u641C\u72D7\u56FE\u7247",
+         "title": "\u641C\u72D7\u56FE\u7247\u641C\u7D22",
+         "url": "http://pic.sogou.com/pics?query={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u56FE\u8868\u79C0",
+         "title": "\u6253\u5F00\u56FE\u8868\u79C0",
+         "url": "https://sso.tubiaoxiu.com"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u521B\u5BA2\u8D34",
+         "title": "\u6253\u5F00\u521B\u5BA2\u8D34",
+         "url": "https://www.chuangkit.com/designtools/startdesign"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u8111\u56FE",
+         "title": "\u6253\u5F00\u767E\u5EA6\u8111\u56FE",
+         "url": "http://naotu.baidu.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u77F3\u58A8\u6587\u6863\u5B98\u7F51",
+         "title": "\u6253\u5F00\u77F3\u58A8\u6587\u6863\u5B98\u7F51",
+         "url": "https://shimo.im/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5B57\u7531",
+         "title": "\u6253\u5F00\u5B57\u7531",
+         "url": "http://www.hellofont.cn/font-list"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6DD8\u5B9D\u7F51",
+         "title": "\u6253\u5F00\u6DD8\u5B9D\u7F51",
+         "url": "https://www.taobao.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6DD8\u5B9D\u7F51",
+         "title": "\u6DD8\u5B9D\u7F51\u641C\u7D22",
+         "url": "https://s.taobao.com/search?q={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5929\u732B",
+         "title": "\u6253\u5F00\u5929\u732B",
+         "url": "https://www.tmall.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5929\u732B",
+         "title": "\u5929\u732B\u641C\u7D22",
+         "url": "https://list.tmall.com/search_product.htm?q={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u4EAC\u4E1C",
+         "title": "\u6253\u5F00\u4EAC\u4E1C",
+         "url": "https://www.jd.com/?cu=true&utm_source=sogou-pinzhuan&utm_medium=cpc&utm_campaign=t_288551095_sogoupinzhuan&utm_term=72c3e74a359c48598c6fabe6c1169112_0_39deee011b304f26af99cbeccbcc8b7e"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u4EAC\u4E1C",
+         "title": "\u4EAC\u4E1C\u641C\u7D22",
+         "url": "https://search.jd.com/Search?keyword={query}&enc=utf-8&wq={query}&pvid=50d58bada853413dae3780a320187111"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5F53\u5F53\u7F51",
+         "title": "\u6253\u5F00\u5F53\u5F53\u7F51",
+         "url": "http://www.dangdang.com/?_utm_brand_id=11053&_ddclickunion=559-ppzq-ms-__%B5%B1%B5%B1%B9%D9%CD%F8%2C%D5%FD%C6%B7%B5%CD%BC%DB%2C%C8%AB%B3%A11%D5%DB%C6%F0|ad_type=0|sys_id=1"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5F53\u5F53\u7F51",
+         "title": "\u5F53\u5F53\u7F51\u641C\u7D22",
+         "url": "http://search.dangdang.com/?key={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u82CF\u5B81\u6613\u8D2D",
+         "title": "\u6253\u5F00\u82CF\u5B81\u6613\u8D2D",
+         "url": "https://www.suning.com/?utm_source=sogou&utm_medium=brand&utm_campaign=title"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u82CF\u5B81\u6613\u8D2D",
+         "title": "\u82CF\u5B81\u6613\u8D2D\u641C\u7D22",
+         "url": "https://search.suning.com/{query}/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u4E9A\u9A6C\u900A",
+         "title": "\u6253\u5F00\u4E9A\u9A6C\u900A",
+         "url": "https://www.amazon.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u4E9A\u9A6C\u900A",
+         "title": "\u4E9A\u9A6C\u900A\u641C\u7D22",
+         "url": "https://www.amazon.cn/s/ref=nb_sb_noss_1?__mk_zh_CN=\u4E9A\u9A6C\u900A\u7F51\u7AD9&url=search-alias%3Daps&field-keywords={query}&rh=i%3Aaps%2Ck%3A{query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "pc6.com",
+         "title": "\u6253\u5F00pc6.com",
+         "url": "http://www.pc6.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "pc6.com",
+         "title": "pc6.com\u641C\u7D22",
+         "url": "https://s.pc6.com/?k={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5FEB\u641C",
+         "title": "\u6253\u5F00\u5FEB\u641C",
+         "url": "http://search.chongbuluo.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u8D44\u6E90\u641C\u7D22",
+         "title": "\u6253\u5F00\u8D44\u6E90\u641C\u7D22",
+         "url": "http://magnet.chongbuluo.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6570\u636E\u641C\u7D22",
+         "title": "\u6253\u5F00\u6570\u636E\u641C\u7D22",
+         "url": "http://data.chongbuluo.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5B66\u672F\u641C\u7D22",
+         "title": "\u6253\u5F00\u5B66\u672F\u641C\u7D22",
+         "url": "http://scholar.chongbuluo.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u78C1\u529B\u641C\u7D22",
+         "title": "\u6253\u5F00\u78C1\u529B\u641C\u7D22",
+         "url": "http://magnet.chongbuluo.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u897F\u897F\u8F6F\u4EF6\u56ED",
+         "title": "\u6253\u5F00\u897F\u897F\u8F6F\u4EF6\u56ED",
+         "url": "http://www.cr173.com/xixi/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u4E91\u641C\u7D22",
+         "title": "\u6253\u5F00\u767E\u5EA6\u4E91\u641C\u7D22",
+         "url": "http://www.sobaidupan.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u4E91\u641C\u7D22",
+         "title": "\u767E\u5EA6\u4E91\u641C\u7D22\u641C\u7D22",
+         "url": "http://www.sobaidupan.com/search.asp?wd={query}&so_md5key=59481156795ce623193d68c8d2169257"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u7F51\u76D8",
+         "title": "\u6253\u5F00\u767E\u5EA6\u7F51\u76D8",
+         "url": "https://pan.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2F&vmode=list"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7CFB\u7EDF\u4E4B\u5BB6",
+         "title": "\u6253\u5F00\u7CFB\u7EDF\u4E4B\u5BB6",
+         "url": "http://win7.yysung.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u6211\u544A\u8BC9\u4F60",
+         "title": "\u6253\u5F00\u6211\u544A\u8BC9\u4F60",
+         "url": "https://msdn.itellyou.cn/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u77E5\u4E4E",
+         "title": "\u6253\u5F00\u77E5\u4E4E",
+         "url": "https://www.zhihu.com/explore/recommendations"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u77E5\u4E4E",
+         "title": "\u77E5\u4E4E\u641C\u7D22",
+         "url": "https://www.zhihu.com/search?type=content&q={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u8D34\u5427",
+         "title": "\u6253\u5F00\u767E\u5EA6\u8D34\u5427",
+         "url": "https://tieba.baidu.com/index.html"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u8D34\u5427",
+         "title": "\u767E\u5EA6\u8D34\u5427\u641C\u7D22",
+         "url": "https://tieba.baidu.com/f?ie=utf-8&kw={query}&fr=search"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7231\u526A\u8F91\u793E\u533A",
+         "title": "\u6253\u5F00\u7231\u526A\u8F91\u793E\u533A",
+         "url": "http://bbs.ijianji.com/portal.php"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7231\u526A\u8F91\u5B98\u7F51",
+         "title": "\u6253\u5F00\u7231\u526A\u8F91\u5B98\u7F51",
+         "url": "http://www.ijianji.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u65B0\u7B14\u8DA3\u9601",
+         "title": "\u6253\u5F00\u65B0\u7B14\u8DA3\u9601",
+         "url": "\u65B0\u7B14\u8DA3\u9601"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u8D77\u70B9\u4E2D\u6587\u7F51",
+         "title": "\u6253\u5F00\u8D77\u70B9\u4E2D\u6587\u7F51",
+         "url": "http://www.qidian.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u767E\u79D1",
+         "title": "\u6253\u5F00\u767E\u5EA6\u767E\u79D1",
+         "url": "https://baike.baidu.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "Excel",
+         "title": "\u6253\u5F00Excel",
+         "url": "X:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Excel 2016.exe"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u641C\u72D7",
+         "title": "\u6253\u5F00\u641C\u72D7",
+         "url": "https://123.sogou.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u641C\u72D7",
+         "title": "\u641C\u72D7\u641C\u7D22",
+         "url": "https://www.sogou.com/sie?hdq=AQxRG-0000&query={query}&ie=utf8"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7FFB\u8BD1",
+         "title": "\u767E\u5EA6\u7FFB\u8BD1",
+         "url": "http://fanyi.baidu.com/translate?aldtype=16047&query={query}&keyfrom=baidu&smartresult=dict&lang=auto2zh#zh/en/%E6%92%92%E5%9C%B0%E6%96%B9&lang=auto2zh#zh/en/%E6%92%92%E5%9C%B0%E6%96%B9"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u817E\u8BAF",
+         "title": "\u817E\u8BAF\u89C6\u9891\u641C\u7D22",
+         "url": "https://v.qq.com/x/search/?q={query}&stag=&smartbox_ab="
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u6587\u5E93",
+         "title": "\u6253\u5F00\u767E\u5EA6\u6587\u5E93",
+         "url": "https://wenku.baidu.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u6587\u5E93",
+         "title": "\u767E\u5EA6\u6587\u5E93\u641C\u7D22",
+         "url": "https://wenku.baidu.com/search?word={query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u767E\u79D1",
+         "title": "\u767E\u5EA6\u767E\u79D1\u641C\u7D22",
+         "url": "https://baike.baidu.com/item/{query}"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u767E\u5EA6\u767E\u79D1",
+         "title": "\u6253\u5F00\u767E\u5EA6\u767E\u79D1",
+         "url": "https://baike.baidu.com/"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u5BF9\u554A\u7F51",
+         "title": "\u6253\u5F00\u5BF9\u554A\u7F51",
+         "url": "http://www.duia.com/#page1"
+      }, {
+         "enabled": true,
+         "icon": {
+
+         },
+         "keyword": "\u7231\u5947\u827A",
+         "title": "\u7231\u5947\u827A\u641C\u7D22",
+         "url": "http://so.iqiyi.com/so/q_{query}"
+      } ]
+   },
+   "launch_apps": {
+      "search_folders": {
+         "user": [ {
+            "enabled": true,
+            "path": "E:\\05-\u641C\u7D22\u8F6F\u4EF6\\SogouExplorer\\7.5.5.26105\\"
+         } ]
+      }
+   },
+   "menu_lists": {
+      "items": [ {
+         "id": 10,
+         "root_item": {
+            "items": [ {
+               "anchor": "submenu_favorite",
+               "items": [ {
+                  "anchor": "menu_list_tc_fav_menu",
+                  "id": 400,
+                  "type": "menu_list"
+               }, {
+                  "anchor": "menu_list_favorite_global",
+                  "id": 100,
+                  "type": "menu_list"
+               }, {
+                  "anchor": "menu_list_favorite_application",
+                  "id": 101,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "submenu_smart_commands",
+               "items": [ {
+                  "anchor": "menu_list_smart_commands",
+                  "id": 300,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 11,
+         "root_item": {
+            "items": [ {
+               "anchor": "menu_list_tc_fav_menu",
+               "id": 400,
+               "type": "menu_list"
+            }, {
+               "anchor": "menu_list_favorite_global",
+               "id": 100,
+               "type": "menu_list"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_OpenedFolders",
+               "command": "_OpenedFolders",
+               "type": "command"
+            }, {
+               "anchor": "submenu_smart_commands",
+               "items": [ {
+                  "anchor": "menu_list_smart_commands",
+                  "id": 300,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 100,
+         "root_item": {
+            "items": [  ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 300,
+         "root_item": {
+            "items": [ {
+               "anchor": "command_QuickSwitch",
+               "command": "_QuickSwitch",
+               "type": "command"
+            }, {
+               "anchor": "command_OpenSelectedFile",
+               "command": "_OpenSelectedFile",
+               "type": "command"
+            }, {
+               "anchor": "command_OpenedFolders",
+               "command": "_OpenedFolders",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Explore",
+               "command": "_Explore",
+               "type": "command"
+            }, {
+               "anchor": "command_Cmd",
+               "command": "_Cmd",
+               "type": "command"
+            }, {
+               "anchor": "command_CopyFolderPath",
+               "command": "_CopyFolderPath",
+               "type": "command"
+            }, {
+               "anchor": "command_CopyFilePaths",
+               "command": "_CopyFilePaths",
+               "type": "command"
+            }, {
+               "anchor": "command_GoToAppFolder",
+               "command": "_GoToAppFolder",
+               "type": "command"
+            }, {
+               "anchor": "command_ExploreAppFolder",
+               "command": "_ExploreAppFolder",
+               "type": "command"
+            }, {
+               "anchor": "command_ExportToExcel",
+               "command": "_ExportToExcel",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_ToggleFileExt",
+               "command": "_ToggleFileExt",
+               "type": "command"
+            }, {
+               "anchor": "command_ToggleHidden",
+               "command": "_ToggleHidden",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_DisableListary",
+               "command": "_DisableListary",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 500,
+         "root_item": {
+            "items": [ {
+               "anchor": "menu_list_favorite_global",
+               "id": 100,
+               "type": "menu_list"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "submenu_recent",
+               "items": [ {
+                  "anchor": "menu_list_recent",
+                  "id": 200,
+                  "type": "menu_list"
+               } ],
+               "type": "submenu"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      }, {
+         "id": 501,
+         "root_item": {
+            "items": [ {
+               "anchor": "command_Options",
+               "command": "_Options",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Tutorial",
+               "command": "_Tutorial",
+               "type": "command"
+            }, {
+               "anchor": "command_OnlineHelp",
+               "command": "_OnlineHelp",
+               "type": "command"
+            }, {
+               "anchor": "command_CheckUpdates",
+               "command": "_CheckUpdates",
+               "type": "command"
+            }, {
+               "anchor": "command_About",
+               "command": "_About",
+               "type": "command"
+            }, {
+               "anchor": "separator",
+               "type": "separator"
+            }, {
+               "anchor": "command_Exit",
+               "command": "_Exit",
+               "type": "command"
+            } ],
+            "type": "submenu"
+         }
+      } ],
+      "version": 0
+   },
+   "pro_license": {
+      "email": "john.james.jones@hushmail.com",
+      "name": "John James Jones",
+      "regcode": "2RJSDKSSNGSXMYNWEEH7E4T6FUVCGPPBCDADQ5LMEABJF76Y369B5LTLVXVFWUN326KQ58M78J2NNS6WKPT9CG4MJXNXH4MJYBYXSARTBNPFNVBF6UFXQUVEWXQQGSUYHFF9AVV857AENGWWMPMRN5VLHB884JEAY48FXJJ5JDY6UVTP8FMJSHDLSAXZB5HE"
+   },
+   "projects": {
+      "items": [ {
+         "keyword": "office",
+         "name": "office",
+         "path": "E:\\02-\u529E\u516C\u8F6F\u4EF6\\office"
+      } ]
+   },
+   "search": {
+      "exclude": [ {
+         "type": "filter",
+         "value": "#"
+      } ],
+      "filters": {
+         "items": [ {
+            "file_extensions": "",
+            "keyword": "folder",
+            "name": "Folder",
+            "search_for_files": true,
+            "search_for_folders": true,
+            "search_in": ""
+         }, {
+            "file_extensions": "",
+            "keyword": "file",
+            "name": "File",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "c;chm;cpp;cxx;doc;docm;docx;dot;dotm;dotx;h;hpp;htm;html;hxx;ini;java;js;lua;mdb;mht;mhtml;pdf;potm;potx;ppam;pps;ppsm;ppsx;ppt;pptm;pptx;rtf;sldm;sldx;thmx;txt;vsd;wpd;wps;wri;xlam;xls;xlsb;xlsm;xlsx;xltm;xltx;xml",
+            "keyword": "document",
+            "name": "Document",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "ani;bmp;gif;ico;jpe;jpeg;jpg;pcx;png;psd;tga;tif;tiff;wmf",
+            "keyword": "pic",
+            "name": "Picture",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "aac;ac3;aif;aifc;aiff;amr;ape;au;cda;dts;fla;flac;gym;it;m1a;m2a;m3u;m4a;mid;midi;mka;mod;mp2;mp3;mpa;ogg;ogm;ra;rmi;snd;spc;umx;vgm;vgz;voc;wav;wma;xm",
+            "keyword": "audio",
+            "name": "Audio",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "3g2;3gp;3gp2;3gpp;amr;asf;avi;bdmv;bik;d2v;dat;divx;drc;dsa;dsm;dss;dsv;f4v;flc;fli;flic;flv;ifo;ivf;m1v;m2ts;m2v;m4b;m4p;m4v;mkv;mod;mov;mp2v;mp4;mpe;mpeg;mpg;mpv2;mts;ogm;pss;pva;qt;ram;ratdvd;rm;rmm;rmvb;roq;rpm;smk;swf;tp;tpr;ts;vob;vp6;webm;wm;wmp;wmv",
+            "keyword": "video",
+            "name": "Video",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "docx;",
+            "keyword": "yasuo",
+            "name": "Yasuo",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "pdf;",
+            "keyword": "pdf",
+            "name": "pdf",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "jpg;jpeg;jpe;",
+            "keyword": "jpg",
+            "name": "jpg",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "png;",
+            "keyword": "png",
+            "name": "png",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "psd;",
+            "keyword": "psd",
+            "name": "psd",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "gif;",
+            "keyword": "gif",
+            "name": "gif",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "bmp;",
+            "keyword": "bmp",
+            "name": "bmp",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "ico",
+            "keyword": "ico",
+            "name": "ico",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "mp3;",
+            "keyword": "mp3",
+            "name": "mp3",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "wav",
+            "keyword": "wav",
+            "name": "wav",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "avi;",
+            "keyword": "avi",
+            "name": "avi",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "flv;",
+            "keyword": "flv",
+            "name": "flv",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "mkv;",
+            "keyword": "mkv",
+            "name": "mkv",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "mp4;",
+            "keyword": "mp4",
+            "name": "mp4",
+            "search_for_files": true,
+            "search_for_folders": true,
+            "search_in": ""
+         }, {
+            "file_extensions": "wmv;",
+            "keyword": "wmv",
+            "name": "wmv",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "mov",
+            "keyword": "mov",
+            "name": "mov",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "doc;docx;docm;dotm;",
+            "keyword": "word",
+            "name": "word",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "xlsm;.xltx;xltm;xlsb;xlam;xlsmx;",
+            "keyword": "excel",
+            "name": "excel",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "pptx;ppt;pptm;ppsx;ppsx;potx;potm;ppam;",
+            "keyword": "ppt",
+            "name": "ppt",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         }, {
+            "file_extensions": "exe",
+            "keyword": "exe",
+            "name": "exe",
+            "search_for_files": true,
+            "search_for_folders": false,
+            "search_in": ""
+         } ],
+         "use_defaults": false
+      }
+   },
+   "status": {
+      "disk_search_started_successfully_last_time": true
+   },
+   "tip": {
+      "action_hotkey": false,
+      "tutorial_listary5": false
+   },
+   "version": 2,
+   "window_types": {
+
+   }
+}

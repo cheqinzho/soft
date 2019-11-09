@@ -1,0 +1,107 @@
+﻿>>> Performing actions with error report: 'J:\搜索软件\Listary.Pro\Listary\CrashRpt\dc8babce-87b8-4607-82c7-6b469d52a6d1'
+[compressing_files]
+Total file size for compression is 218072 bytes
+Creating ZIP archive file J:\搜索软件\Listary.Pro\Listary\CrashRpt\dc8babce-87b8-4607-82c7-6b469d52a6d1.zip
+Compressing file crashdump.dmp
+Compressing file crashrpt.xml
+Calculating MD5 hash for file J:\搜索软件\Listary.Pro\Listary\CrashRpt\dc8babce-87b8-4607-82c7-6b469d52a6d1.zip
+Finished compressing files...OK
+[end_compressing_files]
+[sending_report]
+[sending_attempt]
+Sending error report over HTTP...
+Preparing HTTP request data...
+Calculating size of data to send.
+Opening Internet connection.
+Connecting to server
+Opening HTTP request...
+Sending HTTP request...
+Ending HTTP request...
+Reading server response...
+Server response code: 302
+Server response body:<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<WISPAccessGatewayParam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.acmewisp.com/WISPAccessGatewayParam.xsd">
+<Proxy>
+<MessageType>110</MessageType>
+<NextURL>http://58.53.196.165:8080?userip=100.64.241.222&wlanacname=XY-XY-WS-BAS-1.MAN.ME60&nasip=58.51.93.16&usermac=14-dd-a9-21-98-a5</NextURL>
+<ResponseCode>200</ResponseCode>
+</Proxy>
+</WISPAccessGatewayParam>
+-->
+
+
+
+Redirecting to http://58.53.196.165:8080?userip=100.64.241.222&wlanacname=XY-XY-WS-BAS-1.MAN.ME60&nasip=58.51.93.16&usermac=14-dd-a9-21-98-a5
+Sending HTTP request...
+Ending HTTP request...
+Reading server response...
+Server response code: 302
+Server response body:<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<WISPAccessGatewayParam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.acmewisp.com/WISPAccessGatewayParam.xsd">
+<Proxy>
+<MessageType>110</MessageType>
+<NextURL>http://58.53.196.165:8080?userip=100.64.241.222&wlanacname=XY-XY-WS-BAS-1.MAN.ME60&nasip=58.51.93.16&usermac=14-dd-a9-21-98-a5</NextURL>
+<ResponseCode>200</ResponseCode>
+</Proxy>
+</WISPAccessGatewayParam>
+-->
+
+
+
+Multiple redirects are not allowed.
+Error sending HTTP request.
+[sending_attempt]
+Start sending email
+Quering MX record of domain listary.com
+Getting address info of aspmx.l.google.com port 25
+Creating socket
+Connecting to SMTP server aspmx.l.google.com port 25
+Socket connection error.
+Finished with error code 1
+Getting address info of alt1.aspmx.l.google.com port 25
+Creating socket
+Connecting to SMTP server alt1.aspmx.l.google.com port 25
+Socket connection error.
+Finished with error code 1
+Getting address info of aspmx3.googlemail.com port 25
+Creating socket
+Connecting to SMTP server aspmx3.googlemail.com port 25
+Connected OK.
+Waiting for greeting message from SMTP server...
+220 mx.google.com ESMTP m101si5778704ioo.300 - gsmtp
+
+Sending EHLO
+250-mx.google.com at your service, [221.235.208.225]
+250-SIZE 157286400
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Sending sender and recipient information
+250 2.1.0 OK m101si5778704ioo.300 - gsmtp
+
+250 2.1.5 OK m101si5778704ioo.300 - gsmtp
+
+Start sending email data
+354  Go ahead m101si5778704ioo.300 - gsmtp
+
+Sending message text
+Sending attachments
+421-4.7.0 [221.235.208.225      15] Our system has detected that this message is
+421-4.7.0 suspicious due to the very low reputation of the sending IP address.
+421-4.7.0 To protect our users from spam, mail sent from your IP address has
+421-4.7.0 been temporarily rate limited. Please visit
+421 4.7.0  https://support.google.com/mail/answer/188131 for more information. m101si5778704ioo.300 - gsmtp
+
+Finished with error code 1
+Error sending email.
+[sending_attempt]
+Sending error report using Simple MAPI
+Initializing MAPI
+Error detecting E-mail client
+[status_failed]
